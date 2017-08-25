@@ -42,12 +42,14 @@ function fetchTweets(action){
   inputCheck(input,action);
 }
 
+var ROOT = 'https://case-get-tweets.herokuapp.com';
+
 //Checking to make sure server is available and correct input was passed
 function inputCheck(input, action, toClick){
   input = input.replace('@','');
 
   if(input.length>0){
-    $.get('/'+action+'/' + input, draw.bind(null, toClick))
+    $.get(ROOT+'/'+action+'/' + input, draw.bind(null, toClick))
     .fail(function(){
 
       let img = "http://images.clipshrine.com/getimg/PngMedium-Sad-PANDA-89849.png"
