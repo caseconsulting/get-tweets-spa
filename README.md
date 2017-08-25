@@ -14,8 +14,8 @@ Copy the repo.
 
 ```bash
 mkdir -p ~/GitHub/caseconsulting && cd $_
-git clone git@github.com:caseconsulting/get-tweets-api.git
-cd get-tweets-api
+git clone git@github.com:caseconsulting/get-tweets-spa.git
+cd get-tweets-spa
 ```
 
 Install packages.
