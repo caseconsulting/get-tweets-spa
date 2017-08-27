@@ -1,0 +1,48 @@
+/*header title font*/
+.fancy-heading h1 {
+  font-family: 'Lily Script One', cursive;
+  font-size: 120px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  color:#1DA1F2;
+}
+
+/*footer at bottom*/
+html,body
+{
+  height:100%;
+}
+
+/*loading icon style*/
+.loading-icon{
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.clickable:hover {
+  cursor: pointer;
+  background-color: #E8E8E8;
+
+}
+
+
+#help-icon{
+  float: right;
+  font-size: 25px;
+  padding-right: 5px;
+}
+
+
+
+.foo-bar{
+  z-index: 10 !important;
+  /*background-image: url("src/assets/img/notes.gif");*/
+}
